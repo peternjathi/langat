@@ -6,21 +6,42 @@
         <title>paypal home page</title>
     
         <style>
-            h1 {
+            
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+           .head h1 {
         text-align: center;
-        font-family: sans-serif;
-        font-weight: 700;
+        font-family :'Times New Roman', Times, serif;
+        font-weight: 550;
+        padding:auto;
+        justify-content: space-between;
+    padding-top: 15px;
+        margin-right: auto;
+         
+
     }
     
     .logo {
-        border-radius: 10px;
-        width: 7%;
+        border-radius: 5px;
+        width: 80px;
+        height: 70px;
+        margin-left: 280px;
     }
     .head {
+        border-radius: 10px;
         display: flex;
-        width: 70%;
+        min-width:max-content;
+    
         justify-content: space-between;
-        padding-left: 20px;
+        text-align: center;
+height: auto;
+margin:auto;
+        background-color: rgb(238, 231, 231);
+        margin-bottom: 40px;
+        
     }
     
     body {
@@ -28,19 +49,182 @@
     }
     .p {
         text-align: center;
+        font-weight: 549;
+        margin-top: 40px;
+        line-height: 40px;
         font-size:x-large;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     .p1  {
+        width: 95%;
+        background-color: rgb(224, 216, 216);
         padding-top: 50px;
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px rgb(173, 105, 105) ;
+        z-index: 150px;
+        min-height:max-content;
+        margin-bottom: 50px;
     }
-    
-    .img {
-        width: 20%;
+    #tail{
+        margin: auto;
+        
+
+
     }
-    .i {
+    #tail h2{
         text-align: center;
+        text-transform: capitalize;
+padding: 8px;
+font-family:Georgia, 'Times New Roman', Times, serif;
     }
+    @media screen and (max-width: 2560px){
+                
+                    .logo {
+        border-radius: 5px;
+        width: 120px;
+        height: 100px;
+        margin-left: 750px;
+    
+    }
+       .head h1{
+        font-size: 3.5em;
+       } 
+       .p{
+        font-size: 50px;
+        line-height: 70px;
+       }
+       .p1{
+        margin-top: 50px;
+        height: 80%;
+       }  #tail{
+font-size: 35px;
+       }      
+
+            }
+            @media screen and (max-width: 1440px){
+                
+                .logo {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 380px;
+
+}
+   .head h1{
+    font-size: 2.2em;
+   } 
+   .p{
+    font-size: 30px;
+    line-height: 50px;
+   }
+   .p1{
+    margin-top: 50px;
+    height: 90%;
+   }  #tail{
+font-size: 20px;
+   }      
+
+        }
+        @media screen and (max-width: 1024px){
+                .logo {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+
+}
+   .head h1{
+    font-size: 1.6em;
+    margin-top: 10px;
+   } 
+   .p{
+    font-size: 25px;
+    line-height: 30px;
+   }
+   .p1{
+    margin-top:50px;
+    height: 80%;
+   }  #tail{
+font-size: 15px;
+   }   } @media screen and (max-width: 768px){
+                .logo {
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin-left: 150px;
+
+}
+   .head h1{
+    font-size: 1.2em;
+    margin-top: 8px;
+   } 
+   .p{
+    font-size: 20px;
+    line-height: 25px;
+   }
+   .p1{
+    margin-top:50px ;
+    height: 80%;
+   }  #tail{
+font-size: 15px;
+   }   }
+@media screen and (max-width: 425px){
+     .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+   .head h1{
+    font-size: 0.9em;
+    margin-top: 1px;
+   } 
+   .p{
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 20px;
+   }
+   .p1{
+    margin-top: 70px;
+    height: 74%;
+   }  #tail{
+font-size: 10px;
+   }   }
+   @media screen and (max-width: 375px){
+     .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+
+}.p1{
+height: 74%;
+margin-top:70px ;
+
+}.p{
+    line-height: 20px;
+    margin-top: 40px;
+}
+     }
+     @media screen and (max-width: 320px){
+     .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 0;}
+.p1{
+height: 74%;
+margin-top:70px ;
+
+}.p{
+    line-height: 20px;
+    margin-top: 40px;
+}
+     }
+
+
         </style>
     </head>
     <body>
@@ -48,28 +232,24 @@
             <div>
                 <div class="head">
                     <img class="logo" src="logo.png" alt="logo">
-                    <h1><u>PAYPAL TRUSTED COMPANY AND BTC.</u></h1>
+                    <h1><centre>PAYPAL TRUSTED COMPANY AND BTC</centre></h1>
                 </div>
             <div class="p1">
                 <p class="p">Inorder to be eligible to do any transaction with us
-                    <br> you must be a Nigerian citizen.</p>
+                    you must be a Nigerian citizen.</p>
                 <p class="p">Paypal trusted company was started by sir Edmond langat,
-                    <br> early january 2020.
-                    <br>We have been in partnership  with Nigerian community for over 3 years,
-                    <br> now and it is running well. 
+                     early january 2020.
+                   <br>We have been in partnership  with Nigerian community for over 3 years,
+                     now and it is running well. 
                 </p>
                 <p class="p">To view more content about the website,
-                    <br>click <a href="index1.html" type="email"> more.</a>
-                </p>
-               <div class="i"><img class="img"src="apr 7.jpg" alt=""></div> 
-                <footer>
-                    <p>njagra designers:</p>
-                    <ol>
-                        <li>Peter njathi</li>
-                      
-                    </ol>
-                </footer>
+                    <br>click <a href="index1.html" > more.</a>
+                </p>      
+                 
             </div>
+        </div>
+        <div id="tail">
+        <p  ><h2>Welcome To Paypal Trusted  Company And BTC</h2></p>
         </div>
     </body>
     </html>

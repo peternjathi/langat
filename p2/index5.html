@@ -4,75 +4,570 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+    
+    </script>
     <style>
         body {
     background-color: rgba(127, 255, 212, 0.432);
 }
-        ul {
+*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+.head h1 {
+        text-align: center;
+        font-family :'Times New Roman', Times, serif;
+        font-weight: 550;
+        padding:auto;
+        justify-content: space-between;
+    padding-top: 15px;
+        margin-right: auto;
+         
+
+    }
+    
+    .logo {
+        border-radius: 5px;
+        width: 80px;
+        height: 70px;
+        margin-left: 280px;
+    }
+    .head {
+        border-radius: 10px;
+        display: flex;
+        min-width:max-content;
+    
+        justify-content: space-between;
+        text-align: center;
+height: auto;
+margin:auto;
+        background-color: rgb(238, 231, 231);
+        margin-bottom: 40px;
+        
+    }
+    #lnk{
+        text-align: center;
+        width: 97%;
+
+        background-color: rgb(226, 222, 216);
+        margin: auto;
+        align-content: center;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+
+#lnk ul{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-     list-style: none;
-     width: 90%;
-     padding-left: 20px;
+    
+    
+     
 }
-li :hover {
-    color: tomato;
+#lnk ul li{
+  padding:10px;
+   
+  width: 1500px;
+  border-left: 3px solid black;
 }
-.h1 {
-    background-color: rgba(0, 0, 0, 0.11);
+#lnk ul li:first-child{
+    border-left: none;
+
+}
+#lnk li a{
+    align-items: center;
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+    
+   
+}
+#desc{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    line-height: 35px;
+}
+.mar{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#lnk ul li:hover:not(.yuyu){
+
+    background-color: rgb(126, 106, 106);
+border-radius: 10px;
+font-size: 18px;
+
+
+}
+#lnk ul li a:hover:not(.active){
+    color: white;
+}
+.yuyu{
+    background-color: rgb(35, 221, 35);
+    border-radius: 5px;
+
+}
+ #lnk ul li.yuyu a{
+    color: white;
+ }
+      
+.ytr{
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+}
+ol li {
+    padding-left: 10px;
+    list-style: none;
+    display: inline;
 }
 .mar {
     background-color: rgba(0, 0, 0, 0.11); 
 }
-.p {
+#end {
     font-size: x-large;
     font-family: sans-serif;
     text-align: center;
-    text-transform: uppercase;
+    text-transform:uppercase ;
 }
+#pay{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+
+}
+.p{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+ #tyo{
+width: 99%;
+background-color: rgb(183, 191, 199);
+
+padding: 100px;
+margin-bottom: 30px;
+display: flex;
+margin: auto;
+justify-content: space-between;
+border-radius: 10px;
+box-shadow: 3px 3px 3px rgb(22, 19, 19);
+
+
+ }
+ #pio{
+    font-size: 1.4em;
+ }
+ @media screen and (max-width: 2560px){
+    .ytr{
+     
+     border-radius: 20px;
+     width: 200px;
+     margin-top: 10px;
+ }#pio{
+    font-size: 10px;
+    margin-top: 35px;
+ } 
+                .logo {
+    border-radius: 5px;
+    width: 120px;
+    height: 100px;
+    margin-left: 750px;
+
+}
+   .head h1{
+    font-size: 3.5em;
+   } #lnk ul li a{
+    font-size: 50px;
+   } 
+#end{
+    margin-top:130px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+    #pay{
+
+    font-size: 45px;
+    margin-top: 80px;
+
+    text-decoration: underline;
+    margin-bottom: 60px;
+
+}
+
+.mar{
+    margin-top:50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+    
+    .p{
+        font-size: 60px;
+    }
+#pio{
+    font-size: 60px;
+}
+#tyo{
+    height: 60%;
+    font-size: 60px;
+    padding: 200px;
+}
+#lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}  }
+        @media screen and (max-width: 1440px){
+           
+            .mar{
+    margin-top:130px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.ytr{
+     
+     border-radius: 20px;
+     width: 90px;
+     margin-top: 20px;
+ }#pio{
+    font-size: 10px;
+    margin-top: 25px;
+ }
+                .logo {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 380px;
+
+}
+   .head h1{
+    font-size: 2.0em;
+   } #lnk ul li a{
+    font-size: 30px;}
+      .mar{
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+} 
+.p{
+        font-size: 35px;
+    }
+#pio{
+    font-size: 30px;
+}
+#tyo{
+    height: 60%;
+    font-size: 50px;
+    padding: 100px;
+}
+#lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+}
+@media screen and (max-width: 1024px){
+           
+           .mar{
+   margin-top:130px;
+   margin-bottom: 30px;
+   font-size: 20px;
+}
+.ytr{
+     
+     border-radius: 20px;
+     width: 80px;
+     margin-top: 10px;
+ }#pio{
+    font-size: 10px;
+    margin-top: 35px;
+ }
+               .logo {
+   border-radius: 5px;
+   width: 60px;
+   height: 60px;
+   margin-left: 200px;
+
+}
+  .head h1{
+   font-size: 1.6em;
+  } #lnk ul li a{
+   font-size: 20px;}
+     .mar{
+   margin-top:50px;
+   margin-bottom: 30px;
+   font-size: 20px;
+} 
+.p{
+       font-size: 25px;
+   }
+#pio{
+   font-size: 20px;
+}
+#tyo{
+   height: 40%;
+   font-size: 20px;
+   padding: 80px;
+} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+
+}@media screen and (max-width: 768px){
+           
+           .mar{
+   margin-top:130px;
+   margin-bottom: 30px;
+   font-size: 15px;
+}
+.ytr{
+     
+     border-radius: 20px;
+     width: 80px;
+     margin-top: 10px;
+ }#pio{
+    font-size: 10px;
+    margin-top: 35px;
+ }
+               .logo {
+   border-radius: 5px;
+   width: 50px;
+   height: 50px;
+   margin-left: 150px;
+
+}
+  .head h1{
+   font-size: 1.2em;
+  } #lnk ul li a{
+   font-size: 15px;}
+     .mar{
+   margin-top:50px;
+   margin-bottom: 30px;
+   font-size: 15px;
+} 
+.p{
+       font-size: 15px;
+   }
+#pio{
+   font-size: 15px;
+}
+#tyo{
+   height: 40%;
+   font-size: 20px;
+   padding: 80px;
+}
+#lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+}
+@media screen and (max-width: 425px){
+           
+           .mar{
+   margin-top:130px;
+   margin-bottom: 30px;
+   font-size: 10px;
+}
+.ytr{
+     
+     border-radius: 20px;
+     width: 70px;
+     margin-top: 20px;
+ }#pio{
+    font-size: 10px;
+    margin-top: 25px;
+ } .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+   .head h1{
+    font-size: 0.9em;
+    margin-top: 1px;
+   
+   }#lnk ul li{
+height: 35px;
+ 
+margin-bottom: 10px;
+
+}
+#lnk ul{
+    height: 35px;
+}
+#lnk ul li a{
+    font-size: 9px;
+margin-bottom: 3px;}
+     .mar{
+   margin-top:50px;
+
+   font-size: 15px;
+} 
+.p{
+       font-size: 15px;
+   }
+#pio{
+   font-size: 15px;
+}
+#tyo{
+   height: 40%;
+   font-size: 5px;
+   padding: 60px;
+} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+
+}  @media screen and (max-width: 375px){
+                
+    .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+
+}
+                #lnk ul li a{
+                    font-size: 7.5px;
+                margin-bottom: 3px;}
+                .ytr {
+   border-radius: 10px;
+   width: 80px;
+   margin: 20px;
+            }
+            .mar{
+   margin-top:50px;
+   
+   font-size: 15px;
+} 
+.p{
+       font-size: 15px;
+   }
+#pio{
+   font-size: 10px;
+}.ytr{
+     
+     border-radius: 20px;
+     width: 60px;
+     margin-top: 30px;
+ }#pio{
+    font-size: 12px;
+    margin-top: 35px;
+ }
+#tyo{
+   height: 40%;
+   font-size: 10px;
+   padding: 50px;
+} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}}
+                    
+@media screen and (max-width: 320px){
+    .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+   
+
+} .ytr{
+     
+    border-radius: 20px;
+    width: 50px;
+    margin-top: 30px;
+}#pio{
+   font-size: 10px;
+   margin-top: 35px;
+}
+#lnk ul li{
+height: 40px;
+ 
+margin-bottom: 10px;
+
+}
+#lnk ul{
+    height: 40px;
+}
+                #lnk ul li a{
+                    font-size: 9px;
+                } #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}}
+                       
+       
+       
+       
     </style>
 </head>
 <body>
-    <div class="h1"><marquee behavior="Franklin" direction="left"><h1><u>PAYPAL TRUSTED COMPANY AND BTC.</u></h1></marquee></div>
-    <div>
+    <div class="head">
+        <img class="logo" src="logo.png" alt="logo">
+        <h1><centre>PAYPAL TRUSTED COMPANY AND BTC</centre></h1>
+    </div>
+    <div id="lnk">
         <ul>
-            <li><a href="index1.html">HOME</a></li>
-            <li><a href="index2.html">payment 1</a></li>
-            <li><a href="index3.html">payment 2</a></li>
-            <li><a href="index4.html">payment 3</a></li>
+            <li class="yuyu"> <a class="active" href="index.html">Home</a></li>
+            <li><a href="index2.html">Pay 1</a></li>
+            <li><a href="index3.html"> Pay 2</a></li>
+            <li><a href="index4.html">Pay 3 </a></li>
+            <li><a href="index5.html"> Whatsapp</a></li>
         </ul>
     </div>
-
-        <div> <p class="p">welcome to my whats up page</p></div>
-        <div>
-            <ol>
-                <li>
-            <p>click icon to redirect to my whatapp one</p>
-            <p>
-            <a href="https://wa.me/+254745924582">
-            <img src="whatsapp.png" alt="my whatsapp one">
+        <div > <p class="p">welcome to my whats up page</p></div>
+        <div id="tyo">
+             
+            <p id="pio">Click icon to redirect to my whatapp one</p>
+             
+            <a  href="https://wa.me/+254745924582">
+            <img class="ytr" src="whatsapp.png" alt="my whatsapp one">
              </a>
-              </p>
-                </li>
-
-                <li>
-                    <p>click icon to  redirect to my whatapp two</p>
-                    <p>
-                        <a href="https://wa.me/+254778499314">
-                        <img src="whatsapp.png" alt="my whatsapp two">
+               
+                    <p id="pio">Click icon to  redirect to my whatapp two</p>
+                     
+                        <a   href="https://wa.me/+254778499314">
+                        <img class="ytr" src="whatsapp.png" alt="my whatsapp two">
                     </a>
-                </p>
-                </li>
-            </ol>
+                 
         </div>
 
         
 
 
         <div class="mar">
-            <marquee behavior="flicker" direction="left">
-                <p>Visit Us on WHATS-APP for more info</p>
-            </marquee>
+             
+                <p class="mar" style="text-align: center;">Visit Us on WHATS-APP for more info</p>
+        
         </div>
 </body>
 </html>

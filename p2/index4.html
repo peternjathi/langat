@@ -1,22 +1,148 @@
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-    background-color:rgba(127, 255, 212, 0.432);
+         body {
+    background-color: rgba(127, 255, 212, 0.432);
 }
-        ul {
+*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+.head h1 {
+        text-align: center;
+        font-family :'Times New Roman', Times, serif;
+        font-weight: 550;
+        padding:auto;
+        justify-content: space-between;
+    padding-top: 15px;
+        margin-right: auto;
+         
+
+    }
+    
+    .logo {
+        border-radius: 5px;
+        width: 80px;
+        height: 70px;
+        margin-left: 280px;
+    }
+    .head {
+        border-radius: 10px;
+        display: flex;
+        min-width:max-content;
+    
+        justify-content: space-between;
+        text-align: center;
+height: auto;
+margin:auto;
+        background-color: rgb(238, 231, 231);
+        margin-bottom: 30px;
+        
+    }
+    #lnk{
+        text-align: center;
+        width: 97%;
+
+        background-color: rgb(226, 222, 216);
+        margin: auto;
+        align-content: center;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+
+#lnk ul{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-     list-style: none;
-     width: 90%;
-     padding-left: 20px;
+    
+    
+     
 }
-li :hover {
-    color: tomato;
+#lnk ul li{
+  padding:10px;
+   
+  width: 1500px;
+  border-left: 3px solid black;
 }
-.h1 {
-    background-color: rgba(0, 0, 0, 0.11);
+#lnk ul li:first-child{
+    border-left: none;
+
+}
+#lnk li a{
+    align-items: center;
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+    
+   
+}
+#desc{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    line-height: 35px;
+}
+.mar{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#lnk ul li:hover:not(.yuyu){
+
+    background-color: rgb(126, 106, 106);
+border-radius: 10px;
+font-size: 18px;
+
+
+}
+#lnk ul li a:hover:not(.active){
+    color: white;
+}
+.yuyu{
+    background-color: rgb(35, 221, 35);
+    border-radius: 5px;
+
+}
+ #lnk ul li.yuyu a{
+    color: white;
+ }
+      
+.im {
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+}
+ol li {
+    padding-left: 10px;
+}
+.mar {
+    background-color: rgba(0, 0, 0, 0.11); 
+}
+#end {
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform:uppercase ;
+}
+#pay{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+.ol{
+    display: flex;
+    list-style: none;
 }
 ol {
     display: flex;
@@ -39,22 +165,276 @@ p {
     font-family: sans-serif;
     text-align: center;
     text-transform: uppercase;
+}@media screen and (max-width: 2560px){
+                
+                .logo {
+    border-radius: 5px;
+    width: 120px;
+    height: 100px;
+    margin-left: 750px;
+
 }
+   .head h1{
+    font-size: 3.5em;
+   } #lnk ul li a{
+    font-size: 50px;
+   } 
+#end{
+    margin-top:130px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+    #pay{
+
+    font-size: 45px;
+    margin-top: 40px;
+
+    text-decoration: underline;
+    margin-bottom: 60px;
+
+}
+.im {
+    border-radius: 20px;
+    width: 350px;
+    margin: 20px;
+}
+
+.mar{
+    margin-top:70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+@media screen and (max-width: 1440px){
+           #pay{ 
+    font-size: 30px;
+    margin-top: 40px;
+
+    text-decoration: underline;
+    margin-bottom: 60px;
+
+}
+            .mar{
+    margin-top:130px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+            .im {
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+}
+                .logo {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 380px;
+
+}
+   .head h1{
+    font-size: 2.0em;
+   } #lnk ul li a{
+    font-size: 30px;}
+      .mar{
+    margin-top:70px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}#desc{
+     
+     margin-top: 60px;
+     font-size: 2.0em;
+     line-height: 40px;
+ }
+ 
+} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+        }
+        @media screen and (max-width: 1024px){
+           #pay{ 
+    font-size: 15px;
+    margin-top: 40px;
+
+    text-decoration: underline;
+    margin-bottom: 60px;
+
+}
+            .mar{
+    margin-top:50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+            .im {
+    border-radius: 20px;
+    width: 200px;
+    margin: 20px;
+}
+                .logo {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+
+}
+   .head h1{
+    font-size: 1.6em;
+    padding: 10px;
+   } #lnk ul li a{
+    font-size: 20px;}
+      .mar{
+    margin-top:70px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}#desc{
+     
+     margin-top: 60px;
+     font-size: 1.6em;
+     line-height: 30px;
+ }
+#end{
+    font-size: 15px;
+}
+#lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}    }
+        @media screen and (max-width: 768px){
+           #pay{ 
+    font-size: 15px;
+    margin-top: 80px;
+
+    text-decoration: underline;
+    margin-bottom: 60px;
+
+}
+            .mar{
+    margin-top:130px;
+    margin-bottom: 30px;
+    font-size: 5px;
+}
+            .im {
+    border-radius: 20px;
+    width: 150px;
+    margin: 20px;
+}
+                .logo {
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    margin-left: 150px;
+
+}
+   .head h1{
+    font-size: 1.2em;
+    padding: 10px;
+   } #lnk ul li a{
+    font-size: 15px;}
+      .mar{
+    margin-top:70px;
+    margin-bottom: 30px;
+    font-size:15px;
+}#desc{
+     
+     margin-top: 60px;
+     font-size: 1.2em;
+     line-height: 25px;
+ }
+#end{
+    font-size: 10px;
+} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+        }@media screen and (max-width: 425px){
+                .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+
+}#lnk ul li{
+height: 35px;
+ 
+margin-bottom: 10px;
+
+}
+#lnk ul{
+    height: 35px;
+}
+#lnk ul li a{
+    font-size: 9px;
+margin-bottom: 3px;}
+   .head h1{
+    font-size: 0.9em;
+    margin-top: 1px;
+   } }
+   @media screen and (max-width: 375px){
+                
+    #pay{ 
+    font-size: 10px;} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+                #lnk ul li a{
+                    font-size: 7.5px;
+                margin-bottom: 3px;}}
+                @media screen and (max-width: 320px){
+    .logo {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+
+} 
+#lnk ul li{
+height: 40px;
+ 
+margin-bottom: 10px;
+
+}
+#lnk ul{
+    height: 40px;
+}.mar{
+    font-size: 9px;} #lnk ul li:hover:not(.yuyu){
+
+ 
+border-radius: 4px;
+  
+}
+                #lnk ul li a{
+                    font-size: 9px;
+                }}
+                    
+                     
+        
     </style>
 </head>
 <body>
-    <div class="h1"><marquee behavior="Franklin" direction="left"><h1><u>PAYPAL TRUSTED COMPANY AND BTC.</u></h1></marquee></div>
-    <div>
+    <div class="head">
+        <img class="logo" src="logo.png" alt="logo">
+        <h1><centre>PAYPAL TRUSTED COMPANY AND BTC</centre></h1>
+    </div>
+    <div id="lnk">
         <ul>
-            <li><a href="index1.html">HOME</a></li>
-            <li><a href="index2.html">payment 1</a></li>
-            <li><a href="index3.html">payment 2</a></li>
-            <li><a href="index5.html">Whatsapp</a></li>
+            <li class="yuyu"> <a class="active" href="index.html">Home</a></li>
+            <li><a href="index2.html">Pay 1</a></li>
+            <li><a href="index3.html"> Pay 2</a></li>
+            <li><a href="index4.html">Pay 3</a></li>
+            <li><a href="index5.html"> Whatsapp</a></li>
         </ul>
     </div>
-<p>january images</p>
+    <p id="pay"> January payments</p>
 <div>
-    <marquee behavior="flicker" direction="left">
+    <marquee behavior="flicker" direction="left" scrollamount="10">
     <ol class="ol">
         <li><img class="im" src="57.jpg" alt=""></li>
         <li><img class="im" src="58.jpg" alt=""></li>
@@ -75,7 +455,7 @@ p {
     </marquee>
     </div>
     <div>
-        <marquee behavior="flicker" direction="left">
+        <marquee behavior="flicker" direction="right" scrollamount="10">
         <ol class="ol">
             <li><img class="im" src="67.jpg" alt=""></li>
             <li><img class="im" src="68.jpg" alt=""></li>
@@ -104,9 +484,9 @@ p {
         </marquee>
         </div>
     <div class="mar">
-        <marquee behavior="flicker" direction="left">
-            <p>Visit Us on WHATS-APP for more info</p>
-        </marquee>
+        
+            <p class="mar">Visit Us on WHATS-APP for more info</p>
+        
     </div>
 </body>
 </html>
